@@ -28,11 +28,7 @@
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;    
+  
 }
 
 * {
@@ -151,7 +147,7 @@ header {
 }
     
 .hero-text,
-.projects-text {
+.hero-projects-text {
     text-align: center;
     font-size: 2.5rem;
     width: 25rem;
@@ -394,9 +390,33 @@ address {
     color: var(--light-font);
 }
 
-.projects-img img {
-    width: 10px;
-    height: 10px;
+.secondary-highlight {
+    color: var(--bg-color-dark);
+}
+
+/* projects section */
+
+.more-about-projects {
+    display: flex;
+    padding: 1.2rem;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.projects-highlight {
+    margin-bottom: 10rem;
+}
+
+.projects-image{
+    width: 600px;
+    height: 400px;
+    margin-top: 2rem;
+}
+
+.projects-text {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+
 }
 
 /* media queries */

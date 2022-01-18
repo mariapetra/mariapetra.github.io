@@ -1,4 +1,9 @@
-.projects-img {
-    width: 50%;
-    height: 50%;
+.projects-image{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.secondary-highlight {
+    color: var(--bg-color-dark);
 }
