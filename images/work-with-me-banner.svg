@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3508 2481" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g>
+        <g transform="matrix(1,0,0,1,6.15728,-241.724)">
+            <g transform="matrix(0.995741,0,0,1.00474,14.0848,-8.93567)">
+                <rect x="218.64" y="720.856" width="3088.79" height="1164.01" style="fill:rgb(12,63,208);"/>
+            </g>
+            <g transform="matrix(2.01326,0,0,1.9224,-513.034,-146.352)">
+                <ellipse cx="626.924" cy="778.742" rx="187.584" ry="184.34" style="fill:rgb(12,63,208);stroke:rgb(4,0,255);stroke-width:10.58px;"/>
+            </g>
+            <g transform="matrix(1.94212,0,0,1.82231,-248.96,-799.883)">
+                <ellipse cx="514.878" cy="1181.84" rx="211.905" ry="212.094" style="fill:rgb(248,239,250);stroke:rgb(4,0,255);stroke-width:8.85px;"/>
+            </g>
+            <g transform="matrix(6.88873,0,0,6.57784,-256.337,-1080.76)">
+                <text x="107.33px" y="378.614px" style="font-family:'DevanagariSangamMN-Bold', 'Devanagari Sangam MN';font-weight:700;font-size:50px;fill:rgb(12,63,208);">M</text>
+            </g>
+            <g transform="matrix(6.88873,0,0,6.57784,-0.777688,-959.996)">
+                <text x="107.33px" y="378.614px" style="font-family:'DevanagariSangamMN-Bold', 'Devanagari Sangam MN';font-weight:700;font-size:50px;fill:rgb(12,63,208);">C</text>
+            </g>
+            <g transform="matrix(8.61095,0,0,8.22233,-5791.1,-6863.23)">
+                <text x="812.2px" y="995.331px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:36.486px;fill:rgb(248,239,250);">Want</text>
+                <text x="907.614px" y="995.331px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:36.486px;fill:rgb(248,239,250);">to</text>
+                <text x="951.434px" y="995.331px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:36.486px;fill:rgb(248,239,250);">work</text>
+            </g>
+            <g transform="matrix(7.72107,0,0,7.37261,-6792.74,-5602.5)">
+                <text x="1065.34px" y="972.811px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:40.691px;fill:rgb(248,239,250);">with</text>
+                <text x="1161.92px" y="972.811px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:40.691px;fill:rgb(248,239,250);">me</text>
+                <text x="1222.58px" y="972.811px" style="font-family:'DevanagariMT', 'Devanagari MT';font-size:40.691px;fill:rgb(248,239,250);">?</text>
+            </g>
+        </g>
+        <g transform="matrix(1.1583,0,0,1.04872,-494.842,-37.3927)">
+            <ellipse cx="1081.78" cy="1095.58" rx="328.047" ry="340.528" style="fill:none;stroke:rgb(12,63,208);stroke-width:18.86px;"/>
+        </g>
+    </g>
+</svg>

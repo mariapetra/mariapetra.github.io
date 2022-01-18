@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Claydon | Developer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- <link rel="stylesheet" href="styles/index.css"> -->
+    <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="android-chrome-icon" type="image/png" sizes="192x192" href="icons/android-chrome-192x192.png">
+    <link rel="android-chrome-icon" type="image/png" sizes="512x512" href="icons/android-chrome-512x512.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<header>
+    <container class="container">
+        <sub class="subcontainer">
+            <nav class="navbar">
+                <img class="logo" src="images/logoSVG.svg" alt="Maria Claydon Logo">
+                <ul class="nav-menu">    
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">{ Blog }</a>
+                    </li>                
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>                
+                </ul> 
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>   
+            </nav>         
+        </sub>
+    </container>  
+</header>
+
+<body>
+    <main class="main">
+        <section class="hero">
+            <div class=hero-section id="herosection">
+                <!-- <img class="hero-img" src="images/IMG_7154.jpeg" loading="lazy" alt="Maria Claydon">    -->
+            <div class="projects-text">
+                <p class="projects-text">Here is my <span class="highlight">blog</span> about  
+                    <span class="highlight">tech</span>, changing careers and all the adventures that goes with that.
+                    <br>          
+                <button class="contact-btn" onclick="window.location.href='#contact';">Hire me</button>
+            </div> 
+            </div>           
+        </section>
+
+        <section class="more-about">
+            <h2 class="highlight">Blog post 1 (add date here)</h2>
+            <p>
+            <span class="highlight-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+                autem deleniti cupiditate molestias quis unde quae totam porro dicta
+                iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+            </span>
+            </p>
+            <p>
+            <span class="highlight-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+                autem deleniti cupiditate molestias quis unde quae totam porro dicta
+                iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+            </span>
+            </p>
+            <p>
+            <span class="highlight-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+                nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+                autem deleniti cupiditate molestias quis unde quae totam porro dicta
+                iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+            </span>
+            </p>
+        </section>
+       
+        <section class="projects">
+            <h2 class="skills-header" class="highlight">My Top Projects</h2>
+            <div class="skills-wrapper">
+                <div class="projects-1">
+                    <img src="" alt="project 1"
+                    loading="lazy"
+                    class="icon icon-card"/>
+                    <img src="" alt="project 2"
+                    loading="lazy"
+                    class="icon icon-card"/>
+                </div>
+
+                <div class="projects-2">
+                <img src="" alt="project 3"
+                loading="lazy"
+                class="icon icon-card"/>
+                <img src="" alt="project 4"
+                loading="lazy"
+                class="icon icon-card"/>
+                </div>
+            </div>
+       </section>
+    </main>
+       
+    <section class="form-section">
+        <container class="contact-details">
+            <!-- <img class="contact-img" src="images/work-with-me-banner.svg" alt="work with me"> -->
+            <h2 class="connect-title"><span class="highlight">Let's Connect</span></h2>
+                <br>
+                <a class="socials" href="https://www.linkedin.com/in/maria-c-12688b186/" target="_blank" rel="noopener noreferrer"><img class="socials socials-img" src="social-icons/linkedin-png.png"></a>
+                <a class="socials" href="mailto:claydonmaria@gmail.com" target="_blank" rel="noopener noreferrer"><img class="socials socials-img" src="social-icons/gmail logo-png.png"></a>
+                <a class="socials" href="tel:+61434571084" target="_blank" rel="noopener noreferrer"><img class="socials socials-img phone" src="social-icons/girl in circle-png.png"></a>
+                <a class="socials" href="update" target="_blank" rel="noopener noreferrer"><img class="socials socials-img" src="social-icons/twitter-png.png"></a>
+        </container>
+
+        <form action="https://formspree.io/f/mvolzznj" 
+        method="POST">
+            <div class="form-item">
+                <label for="name">Your Name*</label>
+                <input type="text" id="name" name="name" placeholder="Micky Mouse" required>
+            </div>
+            <div class="form-item">
+                <label for="email">Your Email*</label>
+                <input type="email" id="email" name="email" placeholder="mouse@micky.com" required>
+            </div>
+            <div class="form-item">
+                <label for="message">Message*</label>
+                <textarea id="message" name="message" required placeholder="Hi there! I think your website is amazing let's work together!"></textarea>
+            </div>
+            <div class="form-item">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+       
+</main>
+   
+<footer classs="footer-contact" a id="contact">       
+    <address>
+        <tel href="tel:+61434571084">+61 (0) 434 571 084</tel> | <mail href="mailto:claydonmaria@gmail.com">claydonmaria@gmail.com</mail>                  
+    </address> 
+    <br>
+    &copy; Copyright 2022 Maria Claydon
+</footer>
+
+
+<script src="scripts/index.js"></script>
+</body>
+</html>
