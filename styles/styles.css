@@ -508,8 +508,9 @@ address {
         width: 15rem;
         height: 15rem;
     }
-    .hero-text {
+    .hero-text p{
         font-size: 2rem;
+        align-items: center;
     }
 
     .more-about {
@@ -543,10 +544,7 @@ address {
         height: 1.5rem;
     }
 
-    .socials img:hover {
-        width: 1.8rem;
-        height: 1.8rem;
-    }
+   
 }
 
 /* Medium devices (tablets, 768px and up)*/
