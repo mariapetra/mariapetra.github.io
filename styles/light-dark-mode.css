@@ -1,0 +1,39 @@
+:root {
+    --font-family: 'DM Sans', sans-serif;
+    --standard-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color-dark: #083fd0;
+    --bg-color-mid: #1751f0;
+    --bg-color-light: #fffffb;
+    --dark-font: #0839c1;
+    --shadow-font: #444444;
+    --light-font: #fffffb;
+    --primary-color: #083fd0;
+    --secondary-color: #F609C7;
+    --tertiary-color: #fffffb;
+    --primary-shadow: #0839c1;
+    --secondary-shadow: #d718b1;
+    --tertiary-shadow: #ebebe6;
+    --highlight-color: #1ce2f0;
+    --box-shadow-blue: 0px 2px 15px 2px var(--primary-shadow);
+    --box-shadow-pink: 0px 2px 15px 2px var(--secondary-shadow);
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+  
+}
+
+
+.light-dark-theme {
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    padding: 15px 20px;
+    font-size: 30px;
+    background: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
