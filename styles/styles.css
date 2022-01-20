@@ -495,7 +495,10 @@ address {
         font-size: 70%;
     }
 
-   
+    .hero-section .hero-text {
+        max-width: 70%;
+    }
+
     .navbar a {
         font-size: 1rem;
     }
