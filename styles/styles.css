@@ -31,6 +31,15 @@
   
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -53,9 +62,16 @@ header {
     z-index: 1;  
 }
 
+main {
+    margin: 0;
+    width: 100%;
+}
+
 .container,
 .subcontainer {
     margin: auto;
+    width: 100%;
+
 }
 
 .subcontainer {
