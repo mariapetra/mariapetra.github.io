@@ -358,6 +358,13 @@ address {
     text-align: center;
     justify-content: space-between;
     font-size: 15px;
+    color: var(--secondary-color)
+}
+
+.form-item input::placeholder,
+.form-item textarea::placeholder {
+    color: var(--secondary-color);
+    opacity: 50%;
 }
 
 .form-item textarea {
