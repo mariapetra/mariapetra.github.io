@@ -547,10 +547,15 @@ address {
         justify-content: center;
     }
 
-    .socials img {
-        width: 1.5rem;
-        height: 1.5rem;
+    .socials img,
+    .socials img:hover {
+        background-color: var(--secondary-color);
+        width: 1.7rem;
+        height: 1.7rem;
+        opacity: 100%;
     }
+
+    
 
    
 }
