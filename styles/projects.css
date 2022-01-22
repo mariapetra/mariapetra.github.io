@@ -101,7 +101,7 @@
         font-size: 1.5rem;
     }
 
-  
+    
     
 }
 
@@ -109,15 +109,32 @@
     .top-highlights-small {
         font-size: 1rem;
     }
+
+    
 }
 
-@media (max-width: 1015px) {
+@media (max-width: 1020px) {
+
+    .top-projects-container {
+        display: flex;
+    }
+
     .top-projects {
-        border: 2px dotted var(--bg-color-dark);
+        /* border: 2px dotted var(--bg-color-dark); */
         border-radius: 20px;
         margin: 2rem;
         flex-flow: column wrap;
         justify-content: center;
+        flex-flow: row wrap;
+
+    }
+
+    .top-projects-img img {
+        justify-content: center;
+    }
+
+    .more-projects {
+        flex-flow: column wrap;
     }
 }
 
