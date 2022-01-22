@@ -36,6 +36,7 @@
 
 .top-projects {
     display: flex;
+    flex-flow: row wrap;
 }
 
 .projects .projects-text {
@@ -84,5 +85,39 @@
     color: var(--secondary-shadow);
     border: 2px dotted var(--secondary-color);
 
+}
+
+@media (max-width: 576px) {
+
+    .projects .projects-text{
+        font-size: 1.2rem;
+    }  
+
+    .more-projects {
+        font-size: 0.9rem;
+    }
+
+    .small-media {
+        font-size: 1.5rem;
+    }
+
+  
+    
+}
+
+@media (max-width: 768px) {
+    .top-highlights-small {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1015px) {
+    .top-projects {
+        border: 2px dotted var(--bg-color-dark);
+        border-radius: 20px;
+        margin: 2rem;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
 }
 
