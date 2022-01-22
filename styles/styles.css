@@ -489,6 +489,11 @@ address {
 
 @media (max-width: 576px) {
 
+    .logo {
+        width: 200px;
+        height: 70px;
+        object-fit: cover;
+    }
     .hero-section,
     .icon-card {
         flex-flow: column wrap;
