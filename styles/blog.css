@@ -1,3 +1,16 @@
 .blog-img {
     object-fit: cover;
 }
+
+.blog-highlight {
+    padding-bottom: 2rem;
+}
+.blog-post-header,
+.blog-highlight{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.blog-date {
+    font-weight: bold;
+}
