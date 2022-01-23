@@ -39,11 +39,9 @@
 }
 
 .projects-section {
-    flex-basis: 75%;
-    flex-flow: column nowrap;
-    margin: 2rem;
-    padding-top: 0;
-    padding-bottom: 0%;
+    flex-flow: column wrap;
+    padding: 2rem;
+    margin: 3rem;
 }
 
 .hero-img {
