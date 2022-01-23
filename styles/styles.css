@@ -180,7 +180,7 @@ main {
 .hero-section,
 .projects-section {
     display: flex;
-    z-index: 1;
+    /* z-index: 1; */
     color: var(--light-font);
     align-items: center;
     justify-content: center;
@@ -500,7 +500,8 @@ address {
         font-size: 70%;
     }
 
-    .hero-section .hero-text {
+    .hero-section .hero-text,
+    .hero-section .hero-projects-text {
         max-width: 70%;
     }
 
@@ -516,7 +517,7 @@ address {
         width: 15rem;
         height: 15rem;
     }
-    .hero-text p{
+    .hero-text p {
         font-size: 2rem;
         align-items: center;
     }
