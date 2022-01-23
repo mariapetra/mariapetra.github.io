@@ -180,7 +180,6 @@ main {
 .hero-section,
 .projects-section {
     display: flex;
-    /* z-index: 1; */
     color: var(--light-font);
     align-items: center;
     justify-content: center;
@@ -314,6 +313,9 @@ footer {
 address {
     font-style: normal;
     background-color: var(--secondary-color);
+    border-radius: 20px;
+    width: 30rem;
+    margin: auto;
 }
 
 .contact-details {
