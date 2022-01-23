@@ -14,7 +14,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 }))
 
 
-// light / dark mode
+// light / dark mode -for future dev
 
 // let themeToggler = document.getElementById('theme-toggler');
 
