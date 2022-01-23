@@ -223,7 +223,7 @@ main {
 
 .more-about {
     background-color: var(--bg-color-light);
-    padding: 5rem 10rem;
+    padding: 2rem 5rem;
 }
   
 .more-about h2,
@@ -264,7 +264,7 @@ main {
     margin-top: 1rem;
     padding: 2rem 1rem;
     background-color: var(--bg-color-light);
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
   
 .skills-wrapper img {
@@ -492,8 +492,8 @@ address {
 @media (max-width: 576px) {
 
     .logo {
-        width: 200px;
-        height: 70px;
+        width: 15rem;
+        height: 5rem;
         object-fit: cover;
     }
     .hero-section,
@@ -573,6 +573,10 @@ address {
         padding: 0.2rem;
     }
 
+    .connect-title {
+        font-size: 1.7rem;
+        padding-left: 0px;
+    }
     .socials:hover {
         width: 50px;
         height: 50px;

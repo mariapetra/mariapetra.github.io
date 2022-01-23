@@ -47,31 +47,25 @@
 <body>
     <main class="main">
         <section class="hero">
-            <sub>
-                <div class=hero-section id="herosection">
-                    <img class="hero-img project" 
+            <div class=hero-section id="herosection">
+                    <img class="hero-img" 
                     src="images/github.png" 
                     loading="lazy" 
-                    alt="Maria Claydon"> 
-                    <div class="projects-section">
-                    <p class="hero-projects-text">Here are some of the <span class="highlight">projects</span> 
-                        I have completed since starting my coding journey.
-                    </p> 
-                    <div>
-                    <div class="hire-btn">         
+                    alt="Maria Claydon github repositories image">   
+                <div class="hero-text">
+                    <p class="bio-text">Hi, I'm <span class="highlight">Maria Claydon</span>. 
+                        Completed <span class="highlight">Projects</span> during my <span class="highlight">coding</span>, 
+                        journey</p>           
                     <button class="contact-btn" onclick="window.location.href='#contact';">Get in touch</button>
-                    </div> 
                 </div> 
-            </sub>  
-            
-            
-            
+            </div>           
         </section>
 
         <section class="projects">     
             <h2 class="highlight"><span class="small-media">My Top Projects</span></h2>
-            <p class="highlight-text highlight-projects">Here are some of the projects that I completed during the 
-                She Codes Plus program</p>
+            <p class="highlight-text highlight-projects">We will be completing a range of projects during the She Codes 
+                Plus program. So far I have learned about Python, HTML, CSS and Javascript. I look forward to the next
+                project in Django.</p>
             
             <!-- first project container -->
             <container class="top-projects-container">
@@ -91,7 +85,8 @@
                         <h3>Technologies used: Python</h3>
                         <p>
                             The <span class="highlight">Python, Weather Project</span> 
-                            was our first assignment for the She Codes Plus 2021 Perth cohort.
+                            was our first assignment for the She Codes Plus 2021 Perth cohort. I learned how to code a weather app.
+                            This was my first time learning Python and definitely will not be my last.
                         </p>
                     </div>                      
                 </div>      
@@ -166,6 +161,17 @@
                         to work on our first group project. We created a group contact card to get some practice working 
                         as a team and using Github. </p>
                 </div>
+                <div class="more-projects">
+                    <a href="https://github.com/mariapetra/rock-paper-scissors/blob/master/index.html" 
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="images/project-images/rock-paper-scissors.png" 
+                    alt="rock paper scissors project contact card"
+                    loading="lazy"
+                    class="icon icon-card"/>
+                    </a>
+                    <h3>Technologies used: HTML</h3>
+                    <p>A Rock, Paper Scissors game created with HTML.</p>
+                </div>
         </container>
     </section>
        
@@ -220,9 +226,7 @@
             <div class="form-item">
                 <label for="message">Message*</label>
                 <textarea id="message" 
-                name="message" 
-                required placeholder="Hi Maria! I like your website, let's talk.">
-                </textarea>
+                name="message" required placeholder="Hi Maria! I like your website, let's talk. :)"></textarea>
             </div>
             <div class="form-item">
                 <button type="submit">Submit</button>

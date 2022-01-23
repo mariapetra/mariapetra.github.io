@@ -47,7 +47,6 @@
 .hero-img {
     object-fit: cover;
     object-position: right;
-    margin: auto;
 }
 
 .top-projects {
@@ -86,7 +85,6 @@
 .more-projects img {
     object-fit: cover;
     overflow: hidden;
-    /* float: left; */
 }
 
 .more-projects-container {
@@ -106,12 +104,14 @@
 }
 
 .more-projects:hover {
-    /* background-color: var(--highlight-color); */
     color: var(--secondary-shadow);
     border: 2px dotted var(--secondary-color);
 
 }
 
+.projects {
+    padding-bottom: 0;
+}
 .projects-section {
     border: 50px;
 }
@@ -167,14 +167,9 @@
     }
 
     .top-projects {
-        /* border: 2px dotted var(--bg-color-dark); */
         border-radius: 20px;
-        margin: 2rem;
-        flex-flow: column wrap;
         justify-content: center;
         flex-flow: row wrap;
-        padding: 0;
-
     }
 
     .top-projects-img img {
