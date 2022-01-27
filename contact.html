@@ -89,15 +89,15 @@
             method="POST">
                 <div class="form-item">
                     <label for="name">Your Name*</label>
-                    <input type="text" id="name" name="name" placeholder="Micky Mouse" required>
+                    <input type="text" id="name" name="name" placeholder="Micky Mouse"  onfocus="this.placeholder=''" required>
                 </div>
                 <div class="form-item">
                     <label for="email">Your Email*</label>
-                    <input type="email" id="email" name="email" placeholder="mouse@micky.com" required>
+                    <input type="email" id="email" name="email" placeholder="mouse@micky.com"  onfocus="this.placeholder=''" required>
                 </div>
                 <div class="form-item">
                     <label for="message">Message*</label>
-                    <textarea id="message" name="message" required placeholder="Hi Maria! I like your website, let's talk."></textarea>
+                    <textarea id="message" name="message" required placeholder="Hi Maria! I like your website, let's talk."  onfocus="this.placeholder=''"></textarea>
                 </div>
                 <div class="form-item">
                     <button type="submit">Submit</button>
