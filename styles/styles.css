@@ -296,6 +296,9 @@ main {
     object-fit: cover;
 }
 
+.logo:hover {
+    background-color: var(--bg-color-light);
+}
 .contact-img {
     padding-top: 2rem;
     align-items: center;
@@ -556,6 +559,10 @@ address {
         width: 1.7rem;
         height: 1.7rem;
         opacity: 100%;
+    }
+
+    .form-section {
+        width: auto;
     }
    
 }
