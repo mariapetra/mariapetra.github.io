@@ -20,11 +20,14 @@
         <sub class="subcontainer">
             <nav class="navbar">
                 <a class="logo" href="index.html">
-                    <img class="logo" src="images/LogoSVG.svg" alt="Maria Claydon Logo"> 
-                </a>                <ul class="nav-menu">    
+                    <ul> 
+                        <li id="logo"></li>
+                    </ul>
+                </a> 
+                <ul class="nav-menu">    
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
+                        <a class="nav-link" href="index.html">About</a> 
+                    </li>                   
                     <li class="nav-item">
                         <a class="nav-link" href="projects.html">Projects</a>
                     </li>
@@ -40,6 +43,11 @@
                         <span class="bar"></span>
                         <span class="bar"></span>
                     </div>   
+
+                    <div class="buttons">
+                        <!-- button to toggle dark/light -->
+                        <button id="toggle" class="button dark-mode-btn"></button>
+                    </div>
             </nav>         
         </sub>
     </container>  
@@ -50,7 +58,6 @@
         <section class="hero">
             <div class=hero-section id="herosection">
                     <img class="hero-img" 
-                    src="images/github.png" 
                     loading="lazy" 
                     alt="Maria Claydon github repositories image">   
                 <div class="hero-text">
@@ -241,6 +248,6 @@
     &copy; Copyright 2022 Maria Claydon
 </footer>
    
-<script src="scripts/index.js"></script>
+<script src="scripts/script.js"></script>
 </body>
 </html>

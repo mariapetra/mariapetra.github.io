@@ -4,8 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;600;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
-
-:root {
+:root{
     --font-family: 'DM Sans', sans-serif;
     --standard-font: 400;
     --bold-font: 700;
@@ -14,8 +13,10 @@
     --bg-color-mid: #1751f0;
     --bg-color-light: #fffffb;
     --dark-font: #0839c1;
+    --hero-font: #fffffb; 
     --shadow-font: #444444;
     --light-font: #fffffb;
+    --highlight-font:#F609C7;
     --primary-color: #083fd0;
     --secondary-color: #F609C7;
     --tertiary-color: #fffffb;
@@ -28,39 +29,9 @@
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
+    --logo: url(mariapetra.github.io/images/LogoSVG.svg) no-repeat;
   
 }
-
-/* body.light-active {
-    --bg-color-dark: #f5f7fc;
-    --bg-color-mid: #7575d4;
-    --bg-color-light: rgb(230, 230, 24);
-    --dark-font: #f4f6fa;
-    --shadow-font: #eceaea;
-    --light-font: #181807;
-    --primary-color: #070a11;
-    --secondary-color: #F609C7;
-    --tertiary-color: #ad1010;
-    --primary-shadow: #0839c1;
-    --secondary-shadow: #d718b1;
-    --tertiary-shadow: #ebebe6;
-    --highlight-color: #1ce2f0;
-    --box-shadow-blue: 0px 2px 15px 2px var(--primary-shadow);
-    --box-shadow-pink: 0px 2px 15px 2px var(--secondary-shadow);
-} */
-
-/* #theme-toggler {
-    position: fixed;
-    top: 15px;
-    right: 25px;
-    padding: 15px 20px;
-    font-size: 30px;
-    background: var(--secondary-bg-color);
-    color: var(--primary-text-color);
-    cursor: pointer;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-} */
 
 html,
 body {
@@ -69,6 +40,26 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+}
+
+.dark {
+    --bg-color-dark: #121212;
+    --bg-color-mid: #0b0bc8;
+    --bg-color-light: #121212;
+    --dark-font: #FFFFFF;
+    --shadow-font: #FFFFFF;
+    --light-font: #121212;
+    --highlight-font:#0977e5;
+    --primary-color: #0855ed;
+    --secondary-color: #0977e5;
+    --tertiary-color: #0977e5;
+    --primary-shadow: #0977e5;
+    --secondary-shadow: #0977e5;
+    --tertiary-shadow: #0977e5;
+    --highlight-color: #121212;
+    --box-shadow-blue: 0px 2px 15px 2px var(--primary-shadow);
+    --box-shadow-pink: 0px 2px 15px 2px #eeabef;
+
 }
 
 * {
@@ -98,6 +89,21 @@ main {
     width: 100%;
 }
 
+.dark-mode-btn {
+    background-image: url('/mariapetra.github.io/images/light-dark/night-mode.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    background-color: unset;
+    margin-right: 4rem;
+    border-style: none;
+}
+
+.dark .dark-mode-btn {
+    background-image: url('/mariapetra.github.io/images/light-dark/icons8-Bubbles-2O3HLFjzIcxR-100-ffffff.png');
+}
+
 .container,
 .subcontainer {
     margin: auto;
@@ -122,7 +128,12 @@ main {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-  }
+}
+
+.nav-item a:hover {
+    background-color: var(--secondary-color);
+
+}
 
 .navbar a {
     color: var(--dark-font);
@@ -134,10 +145,11 @@ main {
 
 .navbar a:hover {
     color: var(--light-font);
-    background-color: var(--secondary-color);
     font-size: 1.5rem;
     text-decoration: underline;
 }
+
+
   
 .navbar ul {
     display: flex;
@@ -171,16 +183,35 @@ main {
     background-color: var(--secondary-color);
 }
 
-.logo,
 .contact img {
     margin-right: 8rem;
     padding-bottom: 1.2rem;
 }
 
+.logo {
+    background-image: url(/mariapetra.github.io/images/LogoSVG.svg);
+    width: 300px;
+    height: 90px;
+    object-fit: cover;
+    padding: 2rem;
+    margin-left: 3rem;
+    background-repeat: no-repeat;
+}
+
+#logo:hover {
+    background-color: white;
+}
+
+.dark .logo,
+.dark .logo:hover {
+    background-image: url(/mariapetra.github.io/images/LogoDarkMode.svg);
+    background-color: unset;
+}
+
 .hero-section,
 .projects-section {
     display: flex;
-    color: var(--light-font);
+    color: var(--hero-font);
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -190,6 +221,7 @@ main {
     padding-bottom: 50px;
     background-color: var(--bg-color-dark);  
     padding-top: 150px;
+    margin-top: 50px;
 }
     
 .hero-text,
@@ -214,11 +246,11 @@ main {
 
 .highlight {
     font-weight: var(--bolder-font);
-    color: var(--secondary-color);
+    color: var(--highlight-font);
 }
 
 .highlight-text {
-    color: var(--primary-color);
+    color: var(--dark-font);
 }
 
 .more-about {
@@ -233,7 +265,7 @@ main {
     font-size: 2rem;
     margin-bottom: var(--bottom-margin);
     font-weight: var(--bolder-font);
-    color: var(--secondary-color);
+    color: var(--highlight-font);
 }
 
 .more-about p {
@@ -255,13 +287,13 @@ main {
 
 .contact-btn:hover {
     background-color: var(--tertiary-color);
-    color: var(--primary-shadow);
+    color: var(--dark-font);
 }
 
 .skills,
 .projects {
     text-align: center;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     padding: 2rem 1rem;
     background-color: var(--bg-color-light);
     padding-bottom: 3rem;
@@ -289,16 +321,13 @@ main {
     box-shadow: var(--box-shadow-pink);
 }
 
-.logo,
+/* .logo, */
 .contact-img {
     width: 300px;
     height: 90px;
     object-fit: cover;
 }
 
-.logo:hover {
-    background-color: var(--bg-color-light);
-}
 .contact-img {
     padding-top: 2rem;
     align-items: center;
@@ -344,7 +373,7 @@ address {
     margin-top: 2rem;
 }
 .contact-form input {
-    color: var(--secondary-color);
+    color: var(--highlight-font);
 }
 
 .contact-details a{
@@ -410,12 +439,12 @@ address {
     text-align: center;
     justify-content: space-between;
     font-size: 15px;
-    color: var(--secondary-color)
+    color: var(--highlight-font)
 }
 
 .form-item input::placeholder,
 .form-item textarea::placeholder {
-    color: var(--secondary-color);
+    color: var(--highlight-font);
     opacity: 50%;
 }
 
@@ -450,7 +479,7 @@ address {
 }
 
 .secondary-highlight {
-    color: var(--bg-color-dark);
+    color: var(--dark-font);
 }
 
 /* projects section */
@@ -620,12 +649,13 @@ address {
       left: -100%;
       top: 70px;
       gap: 0;
-      margin: 1.2rem 0;
       flex-direction: column;
       background-color: var(--bg-color-light);
       width: 100%;
       text-align: center;
       transition: 0.3s;
+      margin-top: 4.5rem;
+      padding-bottom: 2rem;
    }
   
     .nav-item{
@@ -633,7 +663,7 @@ address {
       color: var(--light-font);
     }
     
-    .navbar a:hover {
+    .nav-item a:hover {
         background-color: var(--secondary-color);
         color: var(--light-font);
     }
@@ -642,9 +672,9 @@ address {
       left: 0;
     }
 
-    .hero-section {
+    /* .hero-section {
         padding-top: 8rem;
-    }
+    } */
   }
 
 /* Extra large devices (large desktops, 1200px and up) */

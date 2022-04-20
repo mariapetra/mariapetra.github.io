@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --font-family: 'DM Sans', sans-serif;
     --standard-font: 400;
     --bold-font: 700;
@@ -22,7 +22,7 @@
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
   
-}
+} */
 /* section for projects images and text */
 
 .top-projects-container {
@@ -46,8 +46,15 @@
 
 .hero-img {
     object-fit: cover;
-    object-position: right;
+    object-position: left;
+    background-image: url('/mariapetra.github.io/images/github.png');
+    background-size: 600px;
 }
+
+.dark .hero-img {
+    border: 2px dotted white;
+}
+
 
 .top-projects {
     display: flex;
@@ -101,6 +108,7 @@
     background-color: var(--bg-color-light);
     max-width: 15rem;
     margin: 1rem;
+    color: var(--dark-font);
 }
 
 .more-projects:hover {
