@@ -90,7 +90,7 @@ main {
 }
 
 .dark-mode-btn {
-    background-image: url('/mariapetra.github.io/images/light-dark/night-mode.png');
+    background-image: url(../images/light-dark/night-mode.png);
     background-size: cover;
     width: 50px;
     height: 50px;
@@ -101,7 +101,7 @@ main {
 }
 
 .dark .dark-mode-btn {
-    background-image: url('/mariapetra.github.io/images/light-dark/icons8-Bubbles-2O3HLFjzIcxR-100-ffffff.png');
+    background-image: url(../images/light-dark/light-mode.png);
 }
 
 .container,
@@ -189,7 +189,7 @@ main {
 }
 
 .logo {
-    background-image: url(/mariapetra.github.io/images/LogoSVG.svg);
+    background-image: url(../images/LogoSVG.svg);
     width: 300px;
     height: 90px;
     object-fit: cover;
@@ -204,7 +204,7 @@ main {
 
 .dark .logo,
 .dark .logo:hover {
-    background-image: url(/mariapetra.github.io/images/LogoDarkMode.svg);
+    background-image: url(../images/LogoDarkMode.svg);
     background-color: unset;
 }
 
