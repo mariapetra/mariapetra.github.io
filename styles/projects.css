@@ -47,7 +47,7 @@
 .hero-img {
     object-fit: cover;
     object-position: left;
-    background-image: url('/mariapetra.github.io/images/github.png');
+    background-image: url(../images/github.png);
     background-size: 600px;
 }
 
