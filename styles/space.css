@@ -1,8 +1,7 @@
 
-
 .dark .stars, 
 .dark .twinkling, 
-.dark .movingstars {
+.dark .night-clouds {
   position: absolute;
   display: block;
   top: 0;
@@ -13,27 +12,70 @@
   height: 38rem;
 }
 
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+  from {background-position: 0;}
+  to {background-position:10000px 0;}
+}
+
 .stars {
   z-index: 0;
-  background: var(--bg-color-light) url("/images/light-dark/universe.jpeg") repeat top center;
-  
+  background: var(--bg-color-dark) url("/images/light-dark/star-theme/stars.png") repeat top center;
+
 }
 
 .twinkling {
-  z-index: 0;
-  background: transparent url("/images/light-dark/blue-shooting-star.png") repeat top center;
-  -webkit-animation: move-twink-back 200s linear infinite;
-          animation: move-twink-back 200s linear infinite;
+  background: transparent url("/images/light-dark/star-theme/stars2.png") repeat top center;
+  z-index:0;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
 }
 
-.movingstars {
+.night-clouds {
   z-index: 0;
-  background: transparent url("https://img.icons8.com/external-phatplus-lineal-phatplus/2x/external-stars-aerospace-phatplus-lineal-phatplus.png") repeat top center;
-  -webkit-animation: move-clouds-back 200s linear infinite;
-          animation: move-clouds-back 200s linear infinite;
+  background: transparent url("/images/light-dark/star-theme/clouds.png") repeat top center;
+  z-index:0;
+
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  animation:move-clouds-back 200s linear infinite;
 } 
 
-@-webkit-keyframes move-twink-back {
+/* @-webkit-keyframes move-twink-back {
   from {
     background-position: 0 0;
   }
@@ -64,13 +106,14 @@
   }
   to {
     background-position: 10000px 0;
-  }
+  } */
 
 
-}  
+ 
 
-.hero-img {
-  z-index: 2;
+.hero-img,
+.hero-txt {
+  z-index: 1;
 }
 
 
