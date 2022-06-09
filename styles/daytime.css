@@ -12,7 +12,7 @@
 }
 
 .sky {
-  z-index: 0;
+  z-index: -1;
   position: absolute;
   background: rgb(20, 20, 189) url("/images/light-dark/billy-huynh-v9bnfMCyKbg-unsplash.jpg") repeat top center;
 }
@@ -29,7 +29,7 @@
 /* background: transparent url("https://img.icons8.com/external-icongeek26-outline-gradient-icongeek26/2x/external-flying-bird-origami-icongeek26-outline-gradient-icongeek26.png") repeat top center; */
 
 .clouds {
-  z-index: 0;
+  z-index: -1;
   background: transparent url("/images/light-dark/star-theme/clouds3.png") repeat top center;
   -webkit-animation: move-clouds-back 200s linear infinite;
           animation: move-clouds-back 200s linear infinite;
@@ -69,8 +69,8 @@
   }
 }
 
-.hero-text,
+/* .hero-text,
 .more-about {
  z-index: 1;
-}
+} */
 

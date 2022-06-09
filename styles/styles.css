@@ -219,7 +219,7 @@ main {
     max-width: auto;
     margin: auto;
     padding-bottom: 50px;
-    background-color: var(--bg-color-dark);  
+    /* background-color: var(--bg-color-dark);   */
     padding-top: 150px;
     margin-top: 50px;
 }
