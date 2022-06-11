@@ -243,6 +243,12 @@ body * {
     width: 25rem;
     padding: 1rem;
     z-index: 1;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.dark .hero-text {
+    color: var(--dark-font);
 }
     
 .hero-img {
