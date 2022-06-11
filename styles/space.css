@@ -56,11 +56,11 @@
   background: transparent url("/images/light-dark/star-theme/stars2.png") repeat top center;
   z-index:-1;
 
-  -moz-animation:move-twink-back 200s linear infinite;
-  -ms-animation:move-twink-back 200s linear infinite;
-  -o-animation:move-twink-back 200s linear infinite;
-  -webkit-animation:move-twink-back 200s linear infinite;
-  animation:move-twink-back 200s linear infinite;
+  -moz-animation:move-twink-back 500s linear infinite;
+  -ms-animation:move-twink-back 500s linear infinite;
+  -o-animation:move-twink-back 500s linear infinite;
+  -webkit-animation:move-twink-back 500s linear infinite;
+  animation:move-twink-back 500s linear infinite;
 }
 
 .night-clouds {
@@ -74,45 +74,24 @@
   animation:move-clouds-back 200s linear infinite;
 } 
 
-/* @-webkit-keyframes move-twink-back {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -10000px 5000px;
-  }
-}
-
-@keyframes move-twink-back {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -1000px 5000px;
-  }
-} 
-@-webkit-keyframes move-clouds-back {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 10000px 0;
+@media (max-width: 576px) { 
+  .dark .stars,
+  .dark .twinkling,
+  .dark .night-clouds,
+  .sky,
+  .birds,
+  .clouds {
+      height: 70rem;
   }
 }
-@keyframes move-clouds-back {
-  from {
-    background-position: 0 0;
+
+@media (max-width: 768px) { 
+  .dark .stars,
+  .dark .twinkling,
+  .dark .night-clouds,
+  .sky,
+  .birds,
+  .clouds {
+      height: 70rem;
   }
-  to {
-    background-position: 10000px 0;
-  } */
-
-
- 
-
-/* .hero-img,
-.hero-txt {
-  z-index: 1;
-} */
-
-
+}
