@@ -210,10 +210,10 @@ body * {
     margin-left: 3rem;
     background-repeat: no-repeat;
 }
-
+/* 
 #logo:hover {
     background-color: white;
-}
+} */
 
 .dark .logo,
 .dark .logo:hover {
@@ -549,9 +549,9 @@ address {
 
 @media (max-width: 576px) {
 
-    .logo {
-        width: 15rem;
-        height: 4rem;
+    a .logo {
+        width: 60px;
+        height: 20px;
         object-fit: cover;
     }
     .hero-section,
