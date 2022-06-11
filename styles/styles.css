@@ -356,6 +356,10 @@ footer {
     padding: 30px;
 }
 
+.dark footer {
+    color: var(--dark-font);
+}
+
 address {
     font-style: normal;
     background-color: var(--secondary-color);
