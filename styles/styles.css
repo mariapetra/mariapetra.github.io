@@ -53,6 +53,7 @@ body {
     --primary-color: #0855ed;
     --secondary-color: #0977e5;
     --tertiary-color: #0977e5;
+    --highlight: #F609C7;
     --primary-shadow: #0977e5;
     --secondary-shadow: #0977e5;
     --tertiary-shadow: #0977e5;
@@ -265,6 +266,13 @@ body * {
     filter: unset;
 }
 
+.index-hero {
+    object-fit: cover;
+    object-position: 40% 30%;
+    width: 300px;
+    height: 300px;
+}
+
 .highlight {
     font-weight: var(--bolder-font);
     color: var(--highlight-font);
@@ -304,11 +312,20 @@ body * {
     font-size: 20px;
     font-weight: bold;
     margin-top: 1.5rem;
+    cursor: pointer;
 }
 
 .contact-btn:hover {
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    color: var(--light-font);
+}
+
+.dark .contact-btn {
     color: var(--dark-font);
+}
+.dark .contact-btn:hover {
+    background-color: var(--highlight);
+    color: var(--light-font);
 }
 
 .skills,
