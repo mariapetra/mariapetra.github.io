@@ -636,7 +636,13 @@ address {
     .form-section {
         width: auto;
     }
-   
+    
+    a.logo,
+    .hamburger,
+    .hamburger.active {
+        margin: 0;
+        padding-left: 10px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
