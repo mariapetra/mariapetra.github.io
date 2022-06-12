@@ -550,6 +550,16 @@ address {
 }
 
 
+.dark .form-item button {
+    background-color: var(--primary-color);
+    color: whitesmoke;
+}
+.dark .form-item button:hover {
+    background-color: var(--highlight);
+    color: var(--light-text);
+}
+
+
 /* media queries */
 
 
