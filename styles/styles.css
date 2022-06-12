@@ -177,7 +177,7 @@ main {
     list-style-type: none;
     margin: 1rem;
     justify-items: flex-end;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .nav-link {
@@ -580,6 +580,10 @@ address {
 /* Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 576px) {
+
+    #formbutton-container {
+       display: none;
+    }
 
     a .logo {
         width: 60px;
