@@ -162,50 +162,65 @@
             </div>
         </form>
     </section>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
     <script>
-        /* paste this in verbatim */
-        window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
-      
-        /* customize formbutton here*/     
-        formbutton("create", {
-          action: "https://formspree.io/f/mvolywok",
-          title: "Have some thoughts about my blog? Want to hear more of them? Let me know!",
-          fields: [
-            { 
-              type: "email", 
-              label: "Email:", 
-              name: "email",
-              required: true,
-              placeholder: "your@email.com"
-            },
-            {
-              type: "textarea",
-              label: "Message:",
-              name: "message",
-              placeholder: "What's on your mind?",
-            },
-            { type: "submit" }      
-          ],
-          styles: {
-            title: {
-              backgroundColor: "#083fd0",
-              font: "DM Sans",
-              color: "#f1f1f1"
-            },
-    
-            button: {
-              backgroundColor: "#083fd0"
-            },
-            fields: {
-                backgroundColor: "#083fd0"
-            },
-            type: {
-                backgroundColor: "red"
-            }
+      window.formbutton =
+        window.formbutton ||
+        function() {
+          (formbutton.q = formbutton.q || []).push(arguments);
+        };
+      formbutton("create", {
+        action: "https://formspree.io/f/mlezvpjv",
+        title: "Want to chat about my blog?" +
+               "<i style='font-size: 50px;" +
+                         "position: absolute;" +
+                         "right: 0;'></i>",
+        description: "Send me your thoughts!",
+        theme: "classic",
+        styles: {
+          color: "blue",
+          fontWeight: "bold",
+          button: {
+            backgroundColor: "#E5989B",
+            fill: "#fcf5e7",
           },
-          initiallyVisible: true
-        });
-      </script>  
+          button: {
+              backgroundColor: "blue"
+          },
+          shim: {
+            backgroundColor: "rgba(0,0,0,0)"
+          },
+          title: {
+            fontFamily: "DM Sans",
+            fontSize: "2.8em",
+            backgroundColor: "#1751f0",
+            textShadow: "3px 3px 0 #d718b1," +
+                        "-1px -1px 0 #d718b1," +
+                        "1px -1px 0 #d718b1," +
+                        "-1px 1px 0 #d718b1," +
+                        "1px 1px 0 #d718b1"
+          },
+          modal: {
+            background: "#1ce2f0",
+          },
+          description: {
+            backgroundColor: "#fcf5e7"
+          },
+          input: {
+            backgroundColor: "#fcf5e7",
+            boxShadow: "0px 0px 3px #0839c1",
+            border: "1px solid rgba #0839c1"
+          },
+          submitLabel: {
+            marginTop: "18px",
+          },
+          closeButton: {
+            display: "none"
+          }
+        },
+        initiallyVisible: "true"
+      });
+    </script>
 </main>
 <footer
  classs="footer-contact" a id="contact">       
