@@ -77,6 +77,9 @@ body {
     position: relative;
 }
 
+.dark body {
+    background-color: var(--bg-color-dark);
+}
 header {
     top: 0;
     position: fixed;
@@ -321,6 +324,7 @@ body * {
 }
 
 .dark .contact-btn {
+    background-color: #d718b1;
     color: var(--dark-font);
 }
 .dark .contact-btn:hover {
