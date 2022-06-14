@@ -11,7 +11,6 @@
 .quote-button {
     background-color: var(--secondary-color);
     color: var(--light-font);
-    /* width: 8rem; */
     justify-content: center;
     border: unset;
     padding-bottom: 2rem;
@@ -25,4 +24,16 @@
 .quote-button:hover {
         background-color: var(--highlight-color);
         color: var(--dark-font);
+}
+
+.dark .quote-button {
+    background-color: var(--highlight);
+    color: var(--dark-font);
+
+}
+
+.dark .quote-button:hover {
+    background-color: #1ce2f0;
+    color: var(--light-font);
+
 }
