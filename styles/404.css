@@ -11,8 +11,9 @@
   height: 60rem;
 }
 
-#quote {
-    font-size: 1.5rem;
+#quote,
+.hero-quote-bio {
+    font-size: 2rem;
 }
 
 .hero {
@@ -23,3 +24,4 @@ div#herosection.hero-section {
     margin: 0;
     padding-bottom: 0;
 }
+
