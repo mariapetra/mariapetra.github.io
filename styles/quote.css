@@ -1,0 +1,28 @@
+.quote-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    background-color: var(--bg-color-dark);
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.quote-button {
+    background-color: var(--secondary-color);
+    color: var(--light-font);
+    /* width: 8rem; */
+    justify-content: center;
+    border: unset;
+    padding-bottom: 2rem;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: var(--bold-font);
+    margin-top: 20px;
+}
+
+.quote-button:hover {
+        background-color: var(--highlight-color);
+        color: var(--dark-font);
+}

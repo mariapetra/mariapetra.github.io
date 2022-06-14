@@ -28,10 +28,3 @@ refresh.addEventListener("click", () => {
 });
 
 
-/*
-Space animation on dark mode 
-*/
-
-
-
-
