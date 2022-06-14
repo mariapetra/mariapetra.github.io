@@ -6,6 +6,7 @@
     align-items: center;
     text-align: center;
     padding: 5rem;
+    z-index: 1;
 }
 
 .quote-button {
@@ -19,6 +20,7 @@
     font-size: 20px;
     font-weight: var(--bold-font);
     margin-top: 20px;
+    
 }
 
 .quote-button:hover {
@@ -36,4 +38,10 @@
     background-color: #1ce2f0;
     color: var(--light-font);
 
+}
+
+@media (max-width: 576px) {
+    button {
+        z-index: 10;
+    }
 }

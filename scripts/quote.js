@@ -69,14 +69,24 @@ const lostquotes = [
     'Who in the world am I?' Ah, that's the great puzzle!” `,
 
 ]
-function newQuote() {
-    //your code()
+
+const aboutquotes =[
+    `test`,
+    `test`,
+    `test`,
+    `test`,
+    `test`,
+
+]
+function aliceQuote() {
     let quoteList = Math.floor(Math.random() * (lostquotes.length))
-    // console.log(quotes[quoteList])
     quoteDisplay.innerHTML = (lostquotes[quoteList])
 }
 
-// button.addEventListener('click', showQuote())
+function aboutQuote() {
+    let quoteList = Math.floor(Math.random() * (aboutquotes.length))
+    quoteDisplay.innerHTML = (aboutquotes[quoteList])
+}
 
 
 

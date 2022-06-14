@@ -4,3 +4,22 @@
     border-radius: unset;
     border: unset;
 } */
+
+.dark .stars, 
+.dark .twinkling, 
+.dark .night-clouds {
+  height: 60rem;
+}
+
+#quote {
+    font-size: 1.5rem;
+}
+
+.hero {
+    background-color: transparent;
+}
+
+div#herosection.hero-section {
+    margin: 0;
+    padding-bottom: 0;
+}

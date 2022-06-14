@@ -60,9 +60,12 @@ body {
     --highlight-color: #121212;
     --box-shadow-blue: 0px 2px 15px 2px var(--primary-shadow);
     --box-shadow-pink: 0px 2px 15px 2px #eeabef;
-
+    
 }
 
+.dark body {
+    background-color: var(--bg-color-dark);
+}
 * {
     margin: 0;
     padding: 0;
@@ -93,6 +96,9 @@ main {
     width: 100%;
 }
 
+button {
+    cursor: pointer;
+}
 /* body * {
     color:                      hsla(210, 100%, 100%, 0.88)     !important;
     background:                 hsla(210, 100%,  50%, 0.33)       !important;
