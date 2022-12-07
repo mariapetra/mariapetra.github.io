@@ -187,7 +187,6 @@ button {
     list-style-type: none;
     margin: 1rem;
     justify-items: flex-end;
-    /* padding: 2rem; */
 }
 
 .nav-link {
@@ -242,7 +241,6 @@ button {
     max-width: auto;
     margin: auto;
     padding-bottom: 50px;
-    /* background-color: var(--bg-color-dark);   */
     padding-top: 150px;
     margin-top: 50px;
 }
@@ -342,7 +340,6 @@ button {
 .skills,
 .projects {
     text-align: center;
-    /* margin-top: 1rem; */
     padding: 2rem 1rem;
     background-color: var(--bg-color-light);
     padding-bottom: 3rem;
