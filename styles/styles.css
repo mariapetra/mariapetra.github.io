@@ -275,7 +275,6 @@ button {
 
 .index-hero {
     object-fit: cover;
-    object-position: 40% 30%;
     width: 300px;
     height: 300px;
 }
