@@ -3,6 +3,7 @@ const refresh = document.getElementById("refresh");
 const theme = window.localStorage.getItem("theme");
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
+const currentYear = document.getElementById("currentYear").innerHTML = new Date().getFullYear();
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
