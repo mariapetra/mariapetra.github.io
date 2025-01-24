@@ -750,7 +750,7 @@ address {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 30px;
         gap: 0;
         flex-direction: column;
         background-color: var(--bg-color-light);
